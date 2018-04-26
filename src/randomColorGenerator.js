@@ -15,6 +15,7 @@ export function getRandomColor() {
   return color
 }
 
+
 export function getRandomColorTree(tierCount, tiers=[getRandomColor()]) {
   // this isn't being used but is minorly dank and untested
   if (tierCount === 0) return tiers
